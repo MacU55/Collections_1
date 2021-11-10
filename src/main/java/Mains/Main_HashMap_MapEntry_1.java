@@ -32,8 +32,8 @@ public class Main_HashMap_MapEntry_1 {
         }
 
         // add 1000 to Mark
-        Double aDouble = ((Double)hme_1.hm.get("Mark")).doubleValue();
-        hme_1.hm.put("Mark", new Double(aDouble + 1000));
+        Double aDouble = (Double) hme_1.hm.get("Mark");
+        hme_1.hm.put("Mark", aDouble + 1000);
         System.out.println("new value for Mark: " + hme_1.hm.get("Mark"));
 
     }
